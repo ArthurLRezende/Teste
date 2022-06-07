@@ -1,0 +1,224 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #192FFA;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#foguete{
+    width: 160px;
+}
+
+.containerlogo{
+    display: flex;
+    align-items: center;
+}
+.logo-imagem{
+    width: 160px;
+    height:160px;
+}
+.logo-texto{
+    margin-left: 250px;
+    font-size: 69px;
+    color:#ffffff;
+}
+.menu li{
+    display: inline-block;
+    margin-right: 60px;
+}
+.menu li a{
+    text-decoration: none;
+    font-size: 25px;
+    padding:10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;  
+}
+.menu li a:hover{
+    background-color:#ffffff;
+    color: #192FFA;
+    border-radius: 10px; 
+}
+
+.SobreNos{
+    background-color: #418eec;
+
+}
+ .SobreNos h1{
+    text-align:left;
+    padding-left: 35px;
+    padding-top: 50px;
+    font-size: 35px;
+    text-transform: uppercase;
+    color:#1140F5
+}
+.Texto1{
+    margin-left: 35px;
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+}
+.Texto1 p{
+    font-size: 25px;
+    color:#DEECF2;
+    text-align: justify;
+    padding-right: 120px;
+    margin-right:170px;
+}
+#foto1{
+    width: 350px;
+    border-radius: 10px;
+    border: 3px solid blue;
+
+}
+.Servicos{
+    background-image: linear-gradient(to bottom,#418eec,#2B5CD6 );
+}
+.Servicos h1{
+    text-align:left;
+    padding-left: 35px;
+    padding-top: 50px;
+    font-size: 35px;
+    text-transform: uppercase;
+    color:#1140F5
+}
+.Texto2{
+    margin-left: 35px;
+    margin-right: 35px;
+    align-items: center;
+    display: flex;
+}
+.Texto2 p{
+    font-size: 25px;
+    color:#DEECF2;
+    text-align: justify;
+    padding-right: 55px;
+}
+#Foto2{
+    width: 350px;
+    border-radius: 15px;
+    border: 3px solid blue;
+}
+#Foto3{
+    width: 350px;
+    margin-left: 35px;
+    border-radius: 15px;
+    border: 3px solid blue;
+}
+.Projetos{
+    background-image: linear-gradient(to bottom, #2B5CD6, #5133EB);
+}
+.Projetos h1{
+    text-align:center;
+    padding-left: 35px;
+    padding-top: 70px;
+    font-size: 35px;
+    text-transform: uppercase;
+    color:#0024b4
+}
+.Texto3{
+    margin-top: 50px;
+    align-items:center;
+    display: flex;
+}
+.Texto3 p{
+    font-size: 25px;
+    color:#DEECF2;
+    text-align: justify;
+    padding-right: 55px;
+    padding-left: 55px;
+}
+.Texto3 p a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#30A9DE;
+}
+.Texto3 p a:hover{
+    background-color: #30A9DE;
+    color:#FFFCFC;
+    border-radius: 5px;
+}
+#Foto4{
+    width: 450px;
+}
+.rodape{
+    background-color:#4a2fd3 ;
+    display: flex;
+}
+.rodapeEsq{
+    padding-left: 35px;
+    padding-right: 60px;
+    padding-top: 40px;
+
+}
+.rodapeEsq h1{
+    text-align:left;
+    font-size: 35px;
+    text-transform: uppercase;
+    color:#DEECF2
+}
+.rodapeEsq p{
+    color:#DEECF2;
+    font-size: 18px;
+    padding-top: 35px;
+    text-align: justify;
+}
+#Central{
+
+    padding-top: 10px;
+}
+#Dia{
+    padding-top: 5px;
+}
+
+.rodapeMeio{
+    padding-top: 40px;
+    margin-left:190px ;
+    padding-right: 200px;
+}
+.rodapeMeio h1{
+    text-align:left;
+    font-size: 35px;
+    text-transform: uppercase;
+    color:#DEECF2
+}
+.rodapeMeioImg{
+    display: flex;
+    padding-top: 35px;
+}
+#Foto5{
+    width: 150px;
+    margin-left: 25px;
+}
+#Foto6{
+    width: 150px;
+    margin-left: 60px;
+}
+.rodapeDir{
+    margin-right: 35px;
+    margin-left: 115px;
+    padding-top: 40px;
+    }
+.rodapeDir h1{
+    text-align: right;
+    font-size: 35px;
+    text-transform: uppercase;
+    color:#DEECF2
+
+}
+.rodapeDir p{
+    color:#DEECF2;
+    font-size: 18px;
+    padding-top: 35px;
+    text-align: justify;
+}
+#Foto7{
+    width: 115px;
+   
+}
